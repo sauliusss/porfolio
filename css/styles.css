@@ -38,5 +38,73 @@ section {
 }
 
 .section {
-  transform: translateY(-100%);
+  transform: translateY(-100%) scale(0);
+  transition: all 0.4s ease-in-out;
+  background-color: var(--primary-color);
+}
+
+.sec1 {
+  display: none;
+  transform: translateY(0) scale(1);
+}
+
+.sec2 {
+  display: none;
+  transform: translateY(0) scale(1);
+}
+
+.sec3 {
+  display: none;
+  transform: translateY(0) scale(1);
+}
+
+.sec4 {
+  display: none;
+  transform: translateY(0) scale(1);
+}
+
+.sec5 {
+  display: none;
+  transform: translateY(0) scale(1);
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 35%;
+  right: 3%;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%);
+  z-index: 10;
+}
+
+.controls .active-btn {
+  background-color: var(--secondary-color);
+  transition: all 0.4s ease-in-out;
+}
+
+.controls .active-btn i {
+  color: var(--white-color);
+}
+
+.control {
+  display: flex;
+  width: 55px;
+  height: 55px;
+  padding: 1rem;
+  margin: 0.7rem 0;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: var(--grey-4-color);
+  box-shadow: var(--box-shadow-1);
+}
+
+i {
+  font-size: 1.2rem;
+  pointer-events: none;
+  color: var(--grey-2-color);
 }

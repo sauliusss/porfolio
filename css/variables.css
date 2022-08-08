@@ -14,3 +14,7 @@
 :root {
   --br-sm-2: 14px;
 }
+
+:root {
+  --box-shadow-1: 0 3px 15px rgba(0, 0, 0, 0.3);
+}
