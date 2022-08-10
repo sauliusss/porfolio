@@ -1,4 +1,5 @@
 @import url(./variables.css);
+@import url(./components.css);
 
 * {
   margin: 0;
@@ -69,6 +70,8 @@ section {
   transform: translateY(0) scale(1);
 }
 
+/* controls */
+
 .active {
   display: block;
   animation: scaleAnim 1s ease-in-out;
@@ -122,4 +125,73 @@ i {
   font-size: 1.2rem;
   pointer-events: none;
   color: var(--grey-2-color);
+}
+
+/* header-content */
+
+.header-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100%;
+}
+
+.header-content .left-side {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.header-content .left-side .h-shape {
+  transition: all 0.4s ease-in-out;
+  width: 65%;
+  height: 100%;
+  background-color: var(--secondary-color);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+
+.image {
+  height: 50%;
+  width: 50%;
+  margin-left: 2rem;
+  border-radius: var(--br-sm-2);
+  background-color: var(--primary-color);
+  transition: all 0.4s ease-in-out;
+}
+
+.image img {
+  border-radius: var(--br-sm-2);
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.4s ease-in-out;
+  filter: grayscale(100%);
+}
+
+.image img:hover {
+  filter: grayscale(0);
+  background-color: var(--primary-color);
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 18rem;
+}
+
+.right-side .name {
+  font-size: 3rem;
+}
+
+.right-side .name span {
+  color: var(--secondary-color);
+}
+
+.right-side .name p {
+  margin: 2rem 0;
+  line-height: 2rem;
 }
