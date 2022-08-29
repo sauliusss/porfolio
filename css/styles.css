@@ -223,7 +223,7 @@ i {
   font-size: 6.3rem;
 }
 
-/* about */
+/* about container */
 
 .about-container {
   display: grid;
@@ -296,4 +296,26 @@ i {
   width: 2rem;
   height: 2px;
   background-color: var(--grey-5-color);
+}
+
+/* about container stats */
+
+.about-stats {
+  padding-bottom: 4rem;
+}
+
+.about-stats .progress-bars {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+
+.about-stats .progress-bars .progress-bar {
+  display: flex;
+  flex-direction: column;
+}
+
+.progress-bar .prog-title {
+  text-transform: uppercase;
+  font-weight: 500;
 }
