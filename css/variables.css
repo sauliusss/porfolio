@@ -11,6 +11,19 @@
   --grey-5-color: #2a2e35;
 }
 
+.yellow-mode {
+  --primary-color: #3b4d61;
+  --secondary-color: #ef9d10;
+  --white-color: #ffffff;
+  --black-color: #000;
+  --grey0-color: #f8f8f8;
+  --grey-1-color: #dbe1e8;
+  --grey-2-color: #b2becd;
+  --grey-3-color: #6c7983;
+  --grey-4-color: #454e56;
+  --grey-5-color: #2a2e35;
+}
+
 :root {
   --br-sm-2: 14px;
 }
