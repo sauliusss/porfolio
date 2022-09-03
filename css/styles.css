@@ -86,6 +86,8 @@ section {
   }
 }
 
+/* controls */
+
 .controls {
   display: flex;
   flex-direction: column;
@@ -125,6 +127,34 @@ i {
   font-size: 1.2rem;
   pointer-events: none;
   color: var(--grey-2-color);
+}
+
+/* controls dark mode */
+
+.theme-btn {
+  top: 5%;
+  right: 3%;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: var(--grey-4-color);
+  cursor: pointer;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
+  transition: all 0.1s ease-in-out;
+}
+
+.theme-btn:active {
+  transform: translateY(-5px);
+}
+
+.theme-btn i {
+  font-size: 1.4rem;
+  color: var(--grey-2-color);
+  pointer-events: none;
 }
 
 /* header-content */
