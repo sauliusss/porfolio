@@ -1,5 +1,6 @@
 @import url(./variables.css);
 @import url(./components.css);
+@import url(./media.css);
 
 * {
   margin: 0;
@@ -34,7 +35,7 @@ section {
   width: 100%;
   position: absolute;
   top: 0;
-  left: 0%;
+  left: 0;
   padding: 3rem 18rem;
 }
 
@@ -662,12 +663,12 @@ h3 {
   padding: 0;
 }
 
-.contact-content-con .left-contact .contact-info .contact-item .icon {
+.contact-item .icon {
   display: grid;
   grid-template-columns: 40px 1fr;
 }
 
-.contact-content-con .left-contact .contact-info .contact-item .icon i {
+.contact-item .icon i {
   display: flex;
   align-items: center;
   font-size: 1.3rem;
