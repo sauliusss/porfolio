@@ -61,8 +61,8 @@
     padding-bottom: 5rem;
   }
 
-  .blogs-content > .blogs {
-    grid-template-columns: 1fr;
+  .section .blogs-content > .blogs {
+    grid-template-columns: repeat(1, 1fr);
     padding-bottom: 6rem;
     padding-top: 8rem;
   }
@@ -135,7 +135,7 @@
     padding: 0;
   }
 
-  header .right-header {
+  header .right-side {
     padding: 0 !important;
   }
 
@@ -223,7 +223,10 @@
     font-size: 4.5rem;
   }
 
-  .portfolio > .portfolios,
+  .portfolio > .portfolios {
+    grid-template-columns: 1fr 1fr;
+  }
+
   .blogs-content > .blogs {
     grid-template-columns: 1fr 1fr;
   }
@@ -245,6 +248,10 @@
     width: 90%;
     padding-right: 10rem !important;
     margin: 0 auto;
+  }
+
+  .section .right-side > p {
+    padding: 3rem 0;
   }
 
   .contact-container > .contact-content-con {
@@ -297,5 +304,33 @@
 
   form > .submit-btn {
     justify-content: center;
+  }
+
+  .blogs-content > .blogs {
+    padding-bottom: 6rem;
+    padding-top: 8rem;
+  }
+}
+
+@media (min-width: 1432px) {
+  .section .right-side > p {
+    padding: 3rem 0;
+  }
+
+  .section > .main-title h2 {
+    font-size: 4rem;
+  }
+
+  .section > .main-title span {
+    font-size: 4rem;
+  }
+
+  .section .main-title > .bg-text {
+    font-size: 3rem;
+  }
+
+  .blogs-content > .blogs {
+    padding-bottom: 6rem;
+    padding-top: 8rem;
   }
 }
