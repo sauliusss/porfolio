@@ -1,4 +1,4 @@
-.about-container > .left-about p {
+.about-container .left-about p {
   padding-left: 0;
 }
 
@@ -11,38 +11,38 @@
     padding: 0 !important; /*bablab */
   }
 
-  body > .theme-btn {
+  body .theme-btn {
     width: 50px;
     height: 50px;
   }
 
-  header > .header-content {
+  header .header-content {
     grid-template-columns: repeat(1, 1fr);
     padding-bottom: 6rem;
   }
 
-  .left-side > .h-shape {
+  .left-side .h-shape {
     display: none;
   }
-  .header-content > .right-side {
+  .header-content .right-side {
     grid-row: 1;
     width: 90%;
     padding-right: 0rem !important;
     margin: 0 auto;
   }
 
-  .right-side > .name {
+  .right-side .name {
     font-size: 2.5rem !important;
     text-align: center;
     padding-top: 3rem;
   }
 
-  .header-content .left-side > .image {
+  .header-content .left-side .image {
     margin: 0 auto;
     width: 80%;
   }
 
-  body > .controls {
+  body .controls {
     top: auto;
     bottom: 0;
     flex-direction: row;
@@ -53,99 +53,99 @@
     background-color: var(--grey-5-color);
   }
 
-  .controls > .control {
+  .controls .control {
     margin: 0.3rem 1rem;
   }
 
-  .section > .about-container {
+  .section .about-container {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .section .about-container > .right-about {
+  .section .about-container .right-about {
     grid-template-columns: repeat(1, 1fr);
     padding-top: 2.5rem;
   }
 
-  .section .about-container > .left-about {
+  .section .about-container .left-about {
     padding-top: 10rem;
     padding-right: 0;
   }
 
-  .section .about-container > .left-about p {
+  .section .about-container .left-about p {
     padding-top: 3rem;
     padding-left: 0;
   }
 
-  .section > .timeline {
+  .section .timeline {
     grid-template-columns: repeat(1, 1fr);
     padding-bottom: 6rem;
   }
 
-  .about-stats > .progress-bars {
+  .about-stats .progress-bars {
     grid-template-columns: 1fr;
   }
 
-  .portfolio > .portfolios {
+  .portfolio .portfolios {
     grid-template-columns: repeat(1, 1fr);
     padding-bottom: 6rem;
     margin-top: 1rem;
   }
 
-  .blogs-content > .blogs {
+  .blogs-content .blogs {
     grid-template-columns: repeat(1, 1fr);
     padding-bottom: 6rem;
     padding-top: 8rem;
   }
 
-  .contact-container > .contact-content-con {
+  .contact-container .contact-content-con {
     flex-direction: column;
   }
 
-  .contact-container .contact-content-con > .right-contact {
+  .contact-container .contact-content-con .right-contact {
     margin-left: 0;
     margin-top: 2.5rem;
   }
 
-  .contact-content-con .right-contact > .i-c-2 {
+  .contact-content-con .right-contact .i-c-2 {
     flex-direction: column;
   }
 
-  .contact-content-con .right-contact > .i-c-2:last-child {
+  .contact-content-con .right-contact .i-c-2:last-child {
     margin-left: 0;
     margin-top: 1.5rem;
   }
 
-  .contact-content-con > .right-contact {
+  .contact-content-con .right-contact {
     margin-bottom: 6rem;
   }
 
-  .left-contact .contact-info > .contact-item {
+  .left-contact .contact-info .contact-item {
     flex-direction: column;
     margin: 1rem 0;
   }
 
-  .left-contact .contact-info > .contact-item p {
+  .left-contact .contact-info .contact-item p {
     font-size: 15px;
     color: var(--color-grey-2);
   }
 
-  .left-contact .contact-info > .contact-item span {
+  .left-contact .contact-info .contact-item span {
     font-size: 15px;
   }
 
-  .contact-info .contact-item > .icon {
+  .contact-info .contact-item .icon {
     grid-template-columns: 25px 1fr;
   }
 
-  .section > .main-title h2 {
+  .section .main-title h2 {
     font-size: 2rem;
   }
 
-  .section > .main-title span {
+  .section .main-title span {
     font-size: 3rem;
   }
 
-  .section .main-title > .bg-text {
+  .section .main-title .bg-text {
     font-size: 2.3rem;
   }
 }
@@ -155,74 +155,74 @@
     padding: 7rem 11rem;
   }
 
-  .contact-container > .contact-content-con {
+  .contact-container .contact-content-con {
     flex-direction: column;
   }
 
-  .contact-container .contact-content-con > .right-contact {
+  .contact-container .contact-content-con .right-contact {
     margin-left: 0;
     margin-top: 2.5rem;
   }
 
-  .contact-content-con .right-contact > .i-c-2 {
+  .contact-content-con .right-contact .i-c-2 {
     flex-direction: column;
   }
 
-  .contact-content-con .right-contact > .i-c-2:last-child {
+  .contact-content-con .right-contact .i-c-2:last-child {
     margin-left: 0;
     margin-top: 1.5rem;
   }
 
-  .contact-content-con > .right-contact {
+  .contact-content-con .right-contact {
     margin-bottom: 6rem;
   }
 
-  .section .main-title > .bg-text {
+  .section .main-title .bg-text {
     font-size: 5.5rem;
   }
 }
 
 @media (max-width: 1250px) {
-  .blogs-content > .blogs {
+  .blogs-content .blogs {
     grid-template-columns: 1fr;
     /* padding-bottom: 6rem; */
     margin-top: 6rem;
   }
 
-  .blogs-content > .blogs {
+  .blogs-content .blogs {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .section > .right-side {
+  .section .right-side {
     padding-right: 9rem;
   }
 }
 
 @media (max-width: 660px) {
-  .portfolio > .portfolios,
-  .blogs-content > .blogs {
+  .portfolio .portfolios,
+  .blogs-content .blogs {
     grid-template-columns: repeat(1, 1fr);
   }
 }
 
 @media (max-width: 1070px) {
-  .section > .about-container {
+  .section .about-container {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .section .about-container > .right-about {
+  .section .about-container .right-about {
     padding-top: 2.5rem;
   }
 
-  .section > .main-title h2 {
+  .section .main-title h2 {
     font-size: 4rem;
   }
 
-  .section > .main-title span {
+  .section .main-title span {
     font-size: 4rem;
   }
 
-  .section .main-title > .bg-text {
+  .section .main-title .bg-text {
     font-size: 4.5rem;
   }
 }
@@ -232,32 +232,32 @@
     padding: 7rem 6rem;
   }
 
-  .section .about-container > .left-about {
+  .section .about-container .left-about {
     padding-right: 0;
   }
 
-  header > .header-content {
+  header .header-content {
     grid-template-columns: repeat(1, 1fr);
     padding-bottom: 6rem;
   }
 
-  .left-side > .h-shape {
+  .left-side .h-shape {
     display: none;
   }
 
-  .header-content .left-side > .image {
+  .header-content .left-side .image {
     margin: 0 auto !important;
     width: 80% !important;
   }
 
-  .header-content > .right-side {
+  .header-content .right-side {
     grid-row: 1;
     width: 90%;
     padding-right: 0rem !important;
     margin: 0 auto;
   }
 
-  .right-side > .name {
+  .right-side .name {
     font-size: 2.5rem !important;
     text-align: center;
     padding-top: 3rem;
@@ -269,27 +269,27 @@
     padding: 7rem 3rem;
   }
 
-  .about-stats > .progress-bars {
+  .about-stats .progress-bars {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .section .about-container > .right-about {
+  .section .about-container .right-about {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .section > .timeline {
+  .section .timeline {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .section > .main-title h2 {
+  .section .main-title h2 {
     font-size: 3rem;
   }
 
-  .section > .main-title span {
+  .section .main-title span {
     font-size: 3rem;
   }
 
-  .section .main-title > .bg-text {
+  .section .main-title .bg-text {
     font-size: 4rem;
   }
 }

@@ -25,9 +25,10 @@ a {
 }
 
 header {
-  height: 100vh;
+  min-height: 100vh;
   color: var(--white-color);
   overflow: hidden;
+  padding: 0 !important;
 }
 
 section {
@@ -216,13 +217,14 @@ i {
 
 .right-side .name {
   font-size: 3rem;
+  padding-bottom: 5rem;
 }
 
 .right-side .name span {
   color: var(--secondary-color);
 }
 
-.right-side .name p {
+.right-side p {
   margin: 2rem 0;
   line-height: 2rem;
 }
@@ -663,12 +665,12 @@ h3 {
   padding: 0;
 }
 
-.contact-item .icon {
+.contact-content-con .left-contact .contact-info .contact-item .icon {
   display: grid;
   grid-template-columns: 40px 1fr;
 }
 
-.contact-item .icon i {
+.contact-content-con .left-contact .contact-info .contact-item .icon i {
   display: flex;
   align-items: center;
   font-size: 1.3rem;
