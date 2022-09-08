@@ -652,6 +652,7 @@ h3 {
 .contact-content-con .left-contact p {
   margin: 1rem 0;
   line-height: 2rem;
+  color: var(--white-color);
 }
 
 .contact-info .contact-item {
@@ -674,6 +675,7 @@ h3 {
   display: flex;
   align-items: center;
   font-size: 1.3rem;
+  color: var(--white-color);
 }
 
 .right-contact {
@@ -716,6 +718,7 @@ h3 {
 .contact-content-con .left-contact .contact-icon {
   display: flex;
   margin-top: 2rem;
+  justify-content: center;
 }
 
 .contact-icon a {
